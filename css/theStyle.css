@@ -60,7 +60,7 @@ body {
 }
 
 .HeaderBar a:hover {
-  background-color: #ddd;
+  background-color: #A4C3FF;
   color: black;
 }
 
@@ -183,6 +183,8 @@ footer {
 
 
 img {
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
   max-width: 100%;
   height: auto;
 }

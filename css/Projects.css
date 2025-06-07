@@ -1,42 +1,28 @@
 /*This file will be used for all the indiv project files, Making code more reusable*/
 
-body {
-    margin: 0;
-    color: light-dark(#020061, #ffffff);
-    /*The Background*/
-    background-color: light-dark(#ffffff, #1E1E1E);
-    font-family: Arial, Helvetica, sans-serif;
+
+.ProjectHeaderBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: light-dark(#A4C3FF, #2C2C2C);
+  overflow: hidden;
 }
 
-:root {
-    color-scheme: light dark;
-}
-
-.HeaderBar {
-    width: 20%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    background-color: light-dark(#A4C3FF, #2C2C2C);
-    overflow: hidden;
-}
-
-.HeaderBar a {
-    display: flex;
+.ProjectHeaderBar a {
+    display: inline-block;
+    text-align: center;
     width: 100%;
     color: light-dark(#020061, #e7e7e7);
-    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: clamp(20px, 1.5vw, 20px)
 }
 
-.HeaderBar a:hover {
+.ProjectHeaderBar a:hover {
     background-color: #ddd;
     color: black;
 }
