@@ -1,0 +1,213 @@
+html,
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*Following does if Light mode chage color to what ever is on the left */
+  /*The Text */
+  color: light-dark(#020061, #ffffff);
+  /*The Background*/
+  /*background-color: light-dark(#ffffff, #1E1E1E);*/
+
+  /*For the Auto Scroll*/
+  scroll-behavior: smooth;
+}
+
+.stripes {
+ 
+  background-image: repeating-linear-gradient(
+      45deg,
+     light-dark(#b8c0ff1a, #a1a1a10d) 0px,
+      light-dark(#b8c0ff1a, #a1a1a10d) 10px,
+      transparent 10px,
+      transparent 100px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      light-dark(#e3e5ff1a,#a1a1a10d) 0px,
+      light-dark(#e3e5ff1a, #a1a1a10d) 50px,
+      transparent 50px,
+      transparent 100px
+    ),
+    linear-gradient(90deg, light-dark(#f5f6ff,#333333), light-dark(#e3e5ff,#333333));
+
+}
+
+
+
+.HeaderBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: light-dark(#A4C3FF, #2C2C2C);
+  overflow: hidden;
+}
+
+.HeaderBar a {
+  float: left;
+  color: light-dark(#020061, #e7e7e7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.HeaderBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Title {
+  padding-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.IntroBox {
+  border-radius: 1.56rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: light-dark(#020061, #e7e7e7);
+  background-color: light-dark(#A4C3FF, #2C2C2C);
+  border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
+  box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
+
+  padding: 0.625rem;
+  margin: 0.625rem auto;
+}
+
+footer {
+  text-align: center;
+  padding: 0.25rem;
+  background-color: light-dark(#A4C3FF, #7c7c7c);
+  text-align: center;
+  margin-top: auto;
+}
+
+.Logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.ImageSizes {
+  width: 4.375rem;
+  height: 4.375rem;
+
+}
+
+.projectsBox {
+  display: flex;
+  gap: 1.87rem;
+  flex-direction: column;
+  border-radius: 3.125rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  background-color: light-dark(#ffffff, #2C2C2C);
+  border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
+  padding: 0.125rem 1.25rem;
+  margin: 0.625rem auto;
+  box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
+  max-width: 80%
+}
+
+.projectsBox h2 {
+  margin-bottom: -0.625rem;
+}
+
+.indivProjects {
+  font-size: small;
+  margin-bottom: 0.5rem;
+
+  border-radius: 3.125rem;
+  flex: 1;
+  border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
+  background-color: light-dark(#A4C3FF, #0A2A43);
+  padding: 0.625rem 0.625rem;
+  box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indivProjects:hover {
+  background-color: light-dark(#8FB0E6, #2d768a);
+  color: light-dark(#3d0061, #ffffff);
+}
+
+.ProjectsText {
+  font-size: 1.5rem;
+  margin-bottom: -1.25rem;
+}
+
+.IndivProjectTitle {
+  font-size: 1.1rem;
+}
+
+.IndivProjectDesc {
+  font-size: 0.7rem;
+}
+
+.indivProjects ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 1.2em;
+  max-width: 400px;
+}
+
+
+.indivProjects li {
+  margin-bottom: 6px;
+}
+
+.ProjectImage {
+  border-radius: 1.56rem;
+
+  max-width: 60%;
+  height: auto;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.GitHubProjects {
+  border-radius: 20%;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+/*Where the scroll will stop*/
+#Skills,
+#AboutMe,
+#CharityWork,
+#Contact {
+  scroll-margin-top: 80px;
+}
+
+/*Ensures that the color doesnt change for link*/
+a,
+a:hover,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
