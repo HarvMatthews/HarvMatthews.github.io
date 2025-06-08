@@ -141,9 +141,9 @@ footer {
   background-color: light-dark(#8FB0E6, #2d768a);
   color: light-dark(#3d0061, #ffffff);
 }
-s
-.ProjectsText { /*The word Projects*/
-  font-size: 1.5rem;
+
+.SectionTitle { /*The word Projects*/
+  font-size: 2rem;
   margin-bottom: -1.25rem;
 }
 
