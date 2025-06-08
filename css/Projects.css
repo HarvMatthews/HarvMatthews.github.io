@@ -59,13 +59,13 @@
 
 .Box {
     display: flex;
-    gap: 1.87rem;
+    gap: 0.3rem;
     flex-direction: column;
     border-radius: 3.125rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     background-color: light-dark(#A4C3FF, #0A2A43);
-    border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
+    border: 0.18rem solid light-dark(#ffffff, #000000);
     padding: 0.125rem 1.25rem;
     margin: 0.625rem auto;
     box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
