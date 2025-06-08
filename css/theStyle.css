@@ -65,6 +65,7 @@ body {
 }
 
 .Title {
+  font-size: 1.4rem;
   padding-top: 3.5rem;
   display: flex;
   justify-content: center;
@@ -74,13 +75,14 @@ body {
 }
 
 .IntroBox {
+  font-size: 1.2rem;
   border-radius: 1.56rem;
   font-family: Arial, Helvetica, sans-serif;
   color: light-dark(#020061, #e7e7e7);
   background-color: light-dark(#A4C3FF, #2C2C2C);
   border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
   box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
-
+  max-width: 80%;
   padding: 0.625rem;
   margin: 0.625rem auto;
 }
@@ -110,27 +112,20 @@ footer {
 
 .projectsBox {
   display: flex;
-  gap: 1.87rem;
+  gap: 1.2rem;
   flex-direction: column;
   border-radius: 3.125rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
   background-color: light-dark(#ffffff, #2C2C2C);
   border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
-  padding: 0.125rem 1.25rem;
   margin: 0.625rem auto;
   box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
   max-width: 80%
 }
 
-.projectsBox h2 {
-  margin-bottom: -0.625rem;
-}
-
 .indivProjects {
-  font-size: small;
   margin-bottom: 0.5rem;
-
   border-radius: 3.125rem;
   flex: 1;
   border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
@@ -146,18 +141,19 @@ footer {
   background-color: light-dark(#8FB0E6, #2d768a);
   color: light-dark(#3d0061, #ffffff);
 }
-
-.ProjectsText {
+s
+.ProjectsText { /*The word Projects*/
   font-size: 1.5rem;
   margin-bottom: -1.25rem;
 }
 
 .IndivProjectTitle {
   font-size: 1.1rem;
+  text-decoration: underline;
 }
 
 .IndivProjectDesc {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .indivProjects ul {
@@ -166,11 +162,15 @@ footer {
   margin: 0 auto;
   padding-left: 1.2em;
   max-width: 400px;
+  font-size: 0.9rem;
+
 }
 
 
 .indivProjects li {
   margin-bottom: 6px;
+  font-size: 0.9rem;
+
 }
 
 .ProjectImage {
@@ -180,16 +180,15 @@ footer {
   height: auto;
 }
 
-
-
 img {
-  margin-top: -0.5rem;
+  margin-top: 0.4rem;
   margin-bottom: 1rem;
   max-width: 100%;
   height: auto;
 }
 
 .GitHubProjects {
+  margin-top: 0.4rem;
   border-radius: 20%;
 }
 

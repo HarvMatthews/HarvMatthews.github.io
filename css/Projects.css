@@ -29,40 +29,8 @@
 
 
 
-
-.Title {
-    margin-top: 3.2rem;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: -10;
-    margin-bottom: 0.4rem;
-}
-
-.Intro {
-    text-align: center;
-    font-size: 0.85rem;
-    margin-bottom: 0.4rem;
-
-}
-
 .StandardTextSize {
     font-size: 0.75rem;
-    margin-bottom: 0.4rem;
-}
-
-.IntroBox {
-    border-radius: 1.56rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: light-dark(#020061, #e7e7e7);
-    background-color: light-dark(#A4C3FF, #2C2C2C);
-    border: 0.18rem solid light-dark(#ffffff, #2C2C2C);
-    box-shadow: 0 0.25rem 0.625rem light-dark(#000000, #2C2C2C);
-
-    padding: 0.625rem;
-    margin: 0.625rem auto;
-    width: 80%;
-
-    margin-bottom: 3rem;
 }
 
 .NormalText {
@@ -73,8 +41,6 @@
     text-align: center;
     font-size: 1rem;
     font-weight: -20;
-    margin-bottom: 0.1rem;
-    margin-top: 0.4rem;
     text-decoration: underline;
 }
 
@@ -88,8 +54,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0.01rem;
-    margin-bottom: 0.5;
 }
 
 
@@ -118,7 +82,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     margin: 1rm 0;
 }
 
@@ -127,8 +90,11 @@ ul {
     margin: 0 auto;
     padding-left: 1.2em;
     max-width: 400px;
+    font-size: 1.2rem;
 }
 
 li {
     margin-bottom: 6px;
+    font-size: 1.2rem;
+
 }
